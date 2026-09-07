@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="stmol",
-    version="0.0.7",
+    version="0.0.10",
     author="Jose Manuel Napoles Duarte",
     author_email="jnapoles@uach.mx",
     description="Streamlit component for molecular visualization",
@@ -20,7 +20,7 @@ setuptools.setup(
         "streamlit >= 0.63",
         "py3Dmol",
         "ipyspeck==0.6.1", 
-        "ipywidgets==7.6.3"
+        "ipywidgets==7.6.3",
         "ipython_genutils",
     ],
 )
